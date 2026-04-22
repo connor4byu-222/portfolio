@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Connor Johnson — Scratch</title>
+
+  <!-- Google Fonts: Syne (display), DM Sans (body), JetBrains Mono (labels) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&family=Syne:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet"
+  />
+
+  <!-- Custom stylesheet I wrote from scratch -->
+  <link rel="stylesheet" href="css/scratch.css" />
+</head>
+<body>
+
+  <!-- ====== Top bar with on-page anchors ====== -->
+  <header class="top">
+    <div class="wrap">
+      <nav>
+        <a href="index.html" class="logo">
+          <span class="dot"></span>CONNOR JOHNSON · SCRATCH
+        </a>
+        <ul class="anchors">
+          <li><a href="#iron">01 · Iron</a></li>
+          <li><a href="#cloth">02 · Cloth</a></li>
+          <li><a href="#street">03 · Street</a></li>
+          <li><a href="#snow">04 · Snow</a></li>
+          <li><a href="#sound">05 · Sound</a></li>
+          <li><a href="#data">06 · Data</a></li>
+          <li><a href="index.html">← Main site</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ====== Hero ====== -->
+  <section class="hero">
+    <div class="wrap">
+      <span class="hero-kicker">Connor Johnson · Scratch page · No frameworks</span>
+      <h1 class="monster">
+        Off<br />
+        the<br />
+        <span class="accent">clock</span>,<br />
+        <span class="strike">boring</span><br />
+        on<br />
+        purpose.
+      </h1>
+      <p class="hero-sub">
+        The rest of the site is where I dress up. This is where I don't.
+        Five things I actually spend my time on, laid out honestly, with
+        no Bootstrap helping me hide.
+      </p>
+
+      <div class="hero-meta">
+        <div>In the gym<strong>5 days / week</strong></div>
+        <div>On a board<strong>Skate + snow, year round</strong></div>
+        <div>On rotation<strong>2hollis — star</strong></div>
+        <div>Coded by<strong>Me, with coffee</strong></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== 01 · Bodybuilding (contains UL inside OL) ====== -->
+  <section class="block" id="iron">
+    <div class="wrap">
+      <span class="block-tag">01 · Iron / Bodybuilding</span>
+      <h2 class="head">Reps are the<br /><em>cheapest</em> therapy<br />I've ever paid for.</h2>
+
+      <div class="grid-2">
+        <div class="stack">
+          <p class="body">
+            I've been lifting seriously for about three years — started
+            right after my mission and haven't taken more than a week off
+            since. Nothing competitive, just consistent.
+            <strong>The gym is where I figured out what showing up looks
+            like</strong>, and the rest of my life borrowed the habit.
+          </p>
+          <p class="body">
+            Current focus: <em>lean bulk</em>. Five-day split, moderate
+            volume, honest form. The BYU RB is home base when class is
+            in session, Gold's on 1400 N when it isn't. If I'm lucky
+            I'll be in this game for sixty more years; no reason to rush.
+          </p>
+
+          <h3 class="sub">The current split</h3>
+
+          <!-- Required element: Unordered list embedded inside an ordered list -->
+          <ol class="program">
+            <li>
+              <strong>Push — Chest / Shoulders / Triceps</strong>
+              <ul>
+                <li>Incline dumbbell press — 4×8</li>
+                <li>Flat barbell bench — 3×6</li>
+                <li>Seated overhead press — 3×10</li>
+                <li>Cable lateral raise — 4×12</li>
+                <li>Rope pushdown — 3×12</li>
+              </ul>
+            </li>
+            <li>
+              <strong>Pull — Back / Biceps</strong>
+              <ul>
+                <li>Weighted pull-ups — 4×6</li>
+                <li>Barbell row — 4×8</li>
+                <li>Lat pulldown — 3×10</li>
+                <li>Face pull — 3×15</li>
+                <li>Dumbbell curl — 3×10</li>
+              </ul>
+            </li>
+            <li>
+              <strong>Legs — Quads / Hams / Glutes</strong>
+              <ul>
+                <li>Back squat — 4×6</li>
+                <li>Romanian deadlift — 3×8</li>
+                <li>Walking lunges — 3×10 each</li>
+                <li>Leg curl — 3×12</li>
+                <li>Calf raise — 4×15</li>
+              </ul>
+            </li>
+            <li>
+              <strong>Upper — volume day</strong>
+              <ul>
+                <li>Dumbbell bench — 4×10</li>
+                <li>Chest-supported row — 4×10</li>
+                <li>Arnold press — 3×12</li>
+                <li>Preacher curl + tri extension — 3×12 superset</li>
+              </ul>
+            </li>
+            <li>
+              <strong>Lower — posterior focus</strong>
+              <ul>
+                <li>Conventional deadlift — 3×5</li>
+                <li>Hip thrust — 3×10</li>
+                <li>Front squat — 3×8</li>
+                <li>Leg extension — 3×15</li>
+              </ul>
+            </li>
+          </ol>
+
+          <p class="body" style="margin-top: 16px;">
+            <strong>Progress is the only metric I care about.</strong>
+            If the bar is heavier than it was last month, I'm winning.
+          </p>
+        </div>
+
+        <div class="stack">
+          <!-- Required element: Image not from Bootstrap -->
+          <img
+            class="pic"
+            src="https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?auto=format&fit=crop&w=1200&q=80"
+            alt="Barbell loaded with plates on a gym floor"
+          />
+          <p class="cap">Loaded bar, chalk, and patience — the only gear that matters.</p>
+
+          <blockquote class="pull">
+            &ldquo;You don't rise to the level of your goals. You fall
+            to the level of your systems.&rdquo;
+            <footer>— James Clear</footer>
+          </blockquote>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== 02 · Menswear ====== -->
+  <section class="block" id="cloth">
+    <div class="wrap">
+      <span class="block-tag">02 · Cloth / Menswear</span>
+      <h2 class="head">Clothes are<br />a <em>second</em> language.<br />Worth learning to speak.</h2>
+
+      <div class="grid-2">
+        <div class="stack">
+          <img
+            class="pic"
+            src="images/menswear.jpg"
+            alt="Dark techwear fit — leather jacket, utility pants, knit beanie"
+          />
+          <p class="cap">Current rotation — workwear meets leather, kept quiet.</p>
+        </div>
+
+        <div class="stack">
+          <p class="body">
+            Growing up in Texas I wore whatever was clean. Moving to
+            Provo and actually paying for my own clothes changed that
+            quick. Fit, fabric, and proportion were saying something —
+            and <strong>presentation is a skill that compounds</strong>
+            just like any other.
+          </p>
+          <p class="body">
+            I'm not loud about it. My rotation's small, repeats often,
+            and leans workwear + heritage with one thing too weird for
+            the outfit. That last item is the point. Heavy leather,
+            washed denim, beat-up boots. Dark, restrained, built to last.
+          </p>
+
+          <h3 class="sub">My rules, in order</h3>
+
+          <ol class="rules">
+            <li><strong>Fit beats label.</strong> Every time.</li>
+            <li><strong>Shoes first, tee last.</strong> If the shoes are right, the rest has somewhere to go.</li>
+            <li><strong>Own three great pairs of jeans.</strong> Not ten okay ones.</li>
+            <li><strong>Tailors are cheaper than new clothes.</strong> Use one.</li>
+            <li><strong>One weird thing per outfit.</strong> Never two.</li>
+            <li><strong>If it needs a caption, it's doing too much.</strong></li>
+            <li><strong>Buy less, care more.</strong> The wardrobe you keep wearing is the one that was worth buying.</li>
+          </ol>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== 03 · Skateboarding ====== -->
+  <section class="block" id="street">
+    <div class="wrap">
+      <span class="block-tag">03 · Street / Skateboarding</span>
+      <h2 class="head">The only sport that<br />teaches you to<br /><em>fall</em> on camera.</h2>
+
+      <div class="grid-2">
+        <div class="stack">
+          <p class="body">
+            Skating's the sport where thirty bails a day is a normal
+            Tuesday. It teaches you to fail in public, get up fast, and
+            film the one good try. <strong>That skill transfers
+            everywhere.</strong> Business school, cold calls, bad first
+            dates — same energy.
+          </p>
+          <p class="body">
+            I grew up skating the parks around Allen and Plano and
+            picked it back up when I landed in Provo. Mostly street and
+            park. Current setup: an <strong>8.25″ Baker</strong> deck
+            on <strong>Independent 149s</strong> with
+            <strong>Spitfire Formula Four 99a</strong> — not because
+            I'm picky, because I've broken enough stuff to know what
+            works.
+          </p>
+
+          <h3 class="sub">Tricks I've got clean</h3>
+          <p class="body">
+            Ollie, kickflip, heelflip, pop shove-it, varial flip, front
+            180, back 180, half-cab flip, 50-50s on ledges. Still
+            working on: a clean tre flip down more than two stairs.
+            It's been humbling me for six months.
+          </p>
+        </div>
+
+        <div class="stack">
+          <img
+            class="pic"
+            src="images/skate.jpg"
+            alt="Ishod Wair on the cover of Thrasher as Skater of the Year"
+          />
+          <p class="cap">Thrasher · Ishod Wair, Skater of the Year — the standard.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== 04 · Snowboarding ====== -->
+  <section class="block" id="snow">
+    <div class="wrap">
+      <span class="block-tag">04 · Snow / Snowboarding</span>
+      <h2 class="head">Winter is the<br /><em>only</em> season<br />that counts.</h2>
+
+      <div class="grid-2">
+        <div class="stack">
+          <img
+            class="pic"
+            src="images/snowboard.jpg"
+            alt="Snowboarder going huge off a jump with fisheye distortion"
+          />
+          <p class="cap">Hang time, helmet off, full commit — that's the whole sport.</p>
+        </div>
+
+        <div class="stack">
+          <p class="body">
+            Home mountain: <strong>Brighton Resort</strong>. Hour up
+            from Provo if the canyon's behaving. I ride ~25 days a
+            season, chasing powder on weekdays and running park laps on
+            weekends when Little Cottonwood turns into a parking lot.
+          </p>
+          <p class="body">
+            Setup: <strong>Burton Custom 156</strong> with
+            <strong>Union Strata</strong> bindings and
+            <strong>Burton Photon</strong> BOA boots. Camber profile
+            because I'd rather hold an edge than flail through slush.
+            Texas kid learning to stop carving like a skier was the
+            whole first season — second year the tool clicked.
+          </p>
+          <p class="body">
+            This season's goal: <em>a clean backside 360 off the medium
+            kicker at Brighton's park, switch landing</em>. Last
+            season's lesson: keep your weight forward or the mountain
+            will teach you the hard way.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== 05 · 2hollis (YouTube embed) ====== -->
+  <section class="block" id="sound">
+    <div class="wrap">
+      <span class="block-tag">05 · Sound / 2hollis</span>
+      <h2 class="head">The loudest thing<br />in my <em>rotation</em>.</h2>
+
+      <p class="body" style="max-width: 720px; margin-bottom: 32px;">
+        <strong>Hollis Frazier-Herndon</strong> — LA by way of Chicago.
+        Producer, singer, rapper, self-shoots his visuals. His stuff
+        moves between rap, electronic, and hyperpop without asking
+        permission. Albums: <em>White Tiger</em> (2022), <em>2</em>
+        (2023), <em>boy</em> (2024), and <em>star</em> (2025 on
+        Interscope). This is &ldquo;tell me&rdquo; off <em>star</em> —
+        on loop for anyone who's been in my car this year.
+      </p>
+
+      <!-- Required element: embedded YouTube video -->
+      <div class="yt-frame">
+        <iframe
+          src="https://www.youtube.com/embed/ulPq2FXiONE"
+          title="2hollis — tell me (Audio)"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+          loading="lazy"
+        ></iframe>
+      </div>
+
+      <p class="cap" style="margin-top: 12px;">
+        2hollis — &ldquo;tell me&rdquo; · from <em>star</em> (2025, Interscope Records)
+      </p>
+
+      <!-- Web app link -->
+      <a href="webapp.html" class="callout">
+        Want something that actually moves?<br />
+        Play the session generator <span class="arrow">→</span>
+      </a>
+    </div>
+  </section>
+
+  <!-- ====== 06 · Tableau embed ====== -->
+  <section class="block" id="data">
+    <div class="wrap">
+      <span class="block-tag">06 · Data / Tableau</span>
+      <h2 class="head">A graph, because<br />this is a <em>class project</em>.</h2>
+
+      <p class="body" style="max-width: 720px; margin-bottom: 32px;">
+        The Top 100 artists on Spotify in 2018, live from Tableau
+        Public. Click, hover, and filter — this is a real interactive
+        viz, not a screenshot. 2hollis wasn't on this chart yet. Give
+        him another year.
+      </p>
+
+      <div class="tableau-wrap">
+        <iframe
+          title="Top 100 Spotify Artists — Tableau Public"
+          src="https://public.tableau.com/views/Top100Spotify2018Dashboard/Dashboard1?:language=en-US&:embed=y&:showVizHome=no&:display_count=no&:origin=viz_share_link"
+          loading="lazy"
+        ></iframe>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== Footer ====== -->
+  <footer class="end">
+    <div class="wrap">
+      <div class="cols">
+        <div>
+          <p class="big">Thanks for reading.</p>
+          <p class="thin">
+            This page was written by hand, not dragged out of a theme.
+            Every tag, every style, every animation here is mine — and
+            probably has a few rough edges because of it.
+          </p>
+        </div>
+
+        <div>
+          <h4>Main Site</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">Résumé</a></li>
+            <li><a href="career.html">Pursuits</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4>This Page</h4>
+          <ul>
+            <li><a href="webapp.html">Web app ↗</a></li>
+            <li><a href="career.html">Extra page ↗</a></li>
+            <li><a href="#iron">Back to top</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="bottom">
+        <span>© 2026 Connor Johnson</span>
+        <span>Built from a blank HTML file · Brigham Young University</span>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
